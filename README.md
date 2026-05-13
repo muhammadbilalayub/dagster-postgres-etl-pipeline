@@ -1,47 +1,166 @@
-# dagster_postgres_etl
+# 🚀 Dagster PostgreSQL ETL Pipeline
 
-This is a [Dagster](https://dagster.io/) project scaffolded with [`dagster project scaffold`](https://docs.dagster.io/guides/build/projects/creating-a-new-project).
+A modern **ETL pipeline built using Dagster, Python, Pandas, PostgreSQL, and Docker**.
 
-## Getting started
+This project demonstrates how to build a **production-style data pipeline** that:
+- Extracts data from CSV files
+- Transforms data using Python (Pandas)
+- Loads data into PostgreSQL database
+- Orchestrates everything using Dagster assets
+- Runs locally or inside Docker containers
 
-First, install your Dagster code location as a Python package. By using the --editable flag, pip will install your Python package in ["editable mode"](https://pip.pypa.io/en/latest/topics/local-project-installs/#editable-installs) so that as you develop, local code changes will automatically apply.
+---
 
+## 📌 Tech Stack
+
+- 🐍 Python 3.11
+- 🧱 Dagster (Data Orchestration)
+- 🐘 PostgreSQL (Database)
+- 🐼 Pandas (Data Transformation)
+- 🐳 Docker & Docker Compose
+
+---
+
+## 📂 Project Structure
+dagster_postgres_etl/
+│
+├── dagster_postgres_etl/
+│ ├── assets.py # ETL logic (extract, transform, load)
+│ ├── resources.py # DB connection & resources
+│ ├── definitions.py # Dagster pipeline definitions
+│
+├── data/
+│ ├── customers.csv
+│ ├── payments.csv
+│ ├── orders.csv
+│
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── .env
+├── .gitignore
+└── README.md
+
+
+---
+
+## ⚙️ Features
+
+### ✅ ETL Pipeline
+- Extract data from CSV files
+- Clean & transform data using Pandas
+- Load into PostgreSQL tables
+
+### ✅ Dagster Orchestration
+- Asset-based pipeline design
+- Dependency management between assets
+- Materialization support
+
+### ✅ Docker Support
+- Fully containerized pipeline
+- One command setup using Docker Compose
+
+---
+
+## 🚀 Setup Instructions (Local)
+
+### 1️⃣ Clone Repository
 ```bash
-pip install -e ".[dev]"
-```
+git clone https://github.com/muhammadbilalayub/dagster-postgres-etl-pipeline.git
+cd dagster-postgres-etl-pipeline
 
-Then, start the Dagster UI web server:
-
-```bash
+2️⃣ Create Virtual Environment
+python -m venv venv
+venv\Scripts\activate   # Windows
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+4️⃣ Run Dagster UI
 dagster dev
-```
 
-Open http://localhost:3000 with your browser to see the project.
+Open:
 
-You can start writing assets in `dagster_postgres_etl/assets.py`. The assets are automatically loaded into the Dagster code location as you define them.
+http://localhost:3000
 
-## Development
+🐳 Run with Docker (Recommended)
+1️⃣ Build & Run Containers
+docker compose up --build
+2️⃣ Access Dagster UI
+http://localhost:3000
+🗄️ Database Configuration
 
-### Adding new Python dependencies
+Create a .env file in root directory:
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=dagster_db
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+⚠️ Common Issues & Fixes
+❌ FileNotFoundError (CSV)
 
-You can specify new Python dependencies in `setup.py`.
+✔ Solution:
 
-### Unit testing
+Ensure data/ folder exists
+In Docker, ensure volume is mounted properly
+❌ KeyError: column not found
 
-Tests are in the `dagster_postgres_etl_tests` directory and you can run tests using `pytest`:
+✔ Solution:
 
-```bash
-pytest dagster_postgres_etl_tests
-```
+Check CSV column names
+Example: customer_id must exist exactly in file
 
-### Schedules and sensors
+❌ Docker COPY error
+✔ Solution:
 
-If you want to enable Dagster [Schedules](https://docs.dagster.io/guides/automate/schedules/) or [Sensors](https://docs.dagster.io/guides/automate/sensors/) for your jobs, the [Dagster Daemon](https://docs.dagster.io/guides/deploy/execution/dagster-daemon) process must be running. This is done automatically when you run `dagster dev`.
 
-Once your Dagster Daemon is running, you can start turning on schedules and sensors for your jobs.
+Ensure data/ folder is in root directory
 
-## Deploy on Dagster+
 
-The easiest way to deploy your Dagster project is to use Dagster+.
+Build from correct folder
 
-Check out the [Dagster+ documentation](https://docs.dagster.io/dagster-plus/) to learn more.
+
+
+❌ Docker not found / CLI error
+✔ Solution:
+
+
+Install Docker Desktop
+
+
+Restart system after installation
+
+
+Use "Sign in with browser"
+
+
+
+📊 Pipeline Flow
+CSV Files   ↓Dagster Assets   ↓Pandas Transformation   ↓PostgreSQL Tables   ↓Dagster UI (Materialization View)
+
+👨‍💻 Author
+Muhammad Bilal Ayub
+GitHub: https://github.com/muhammadbilalayub
+
+📌 Learning Outcome
+This project helps you understand:
+
+
+ETL pipelines
+
+
+Dagster asset orchestration
+
+
+Docker containerization
+
+
+PostgreSQL integration
+
+
+Real-world data engineering workflow
+
+
+
+
+
+
+
