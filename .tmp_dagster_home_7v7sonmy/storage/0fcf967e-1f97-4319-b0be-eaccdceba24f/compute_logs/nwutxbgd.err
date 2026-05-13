@@ -1,0 +1,5 @@
+2026-05-12 16:45:55 +0000 - dagster - DEBUG - __ASSET_JOB - 0fcf967e-1f97-4319-b0be-eaccdceba24f - 1950 - LOGS_CAPTURED - Capturing logs for process (pid: 1950).
+2026-05-12 16:45:55 +0000 - dagster - DEBUG - __ASSET_JOB - 0fcf967e-1f97-4319-b0be-eaccdceba24f - 1950 - customer_analytics - STEP_START - Started execution of step "customer_analytics".
+2026-05-12 16:45:56 +0000 - dagster - DEBUG - __ASSET_JOB - 0fcf967e-1f97-4319-b0be-eaccdceba24f - 1950 - customer_analytics - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-05-12 16:45:56 +0000 - dagster - DEBUG - __ASSET_JOB - 0fcf967e-1f97-4319-b0be-eaccdceba24f - 1950 - customer_analytics - ASSET_MATERIALIZATION - Materialized value customer_analytics.
+2026-05-12 16:45:56 +0000 - dagster - DEBUG - __ASSET_JOB - 0fcf967e-1f97-4319-b0be-eaccdceba24f - 1950 - customer_analytics - STEP_SUCCESS - Finished execution of step "customer_analytics" in 929ms.

@@ -1,0 +1,7 @@
+2026-05-12 15:45:57 +0000 - dagster - DEBUG - all_assets_job - 3bed3022-7fd8-49d0-af82-fd124c9d8bd0 - 11180 - LOGS_CAPTURED - Capturing logs for process (pid: 11180).
+2026-05-12 15:45:57 +0000 - dagster - DEBUG - all_assets_job - 3bed3022-7fd8-49d0-af82-fd124c9d8bd0 - 11180 - orders - STEP_START - Started execution of step "orders".
+2026-05-12 15:45:57 +0000 - dagster - DEBUG - all_assets_job - 3bed3022-7fd8-49d0-af82-fd124c9d8bd0 - 11180 - orders - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-05-12 15:45:57 +0000 - dagster - DEBUG - all_assets_job - 3bed3022-7fd8-49d0-af82-fd124c9d8bd0 - orders - Writing file at: /app/.tmp_dagster_home_7nva6ern/storage/orders using PickledObjectFilesystemIOManager...
+2026-05-12 15:45:58 +0000 - dagster - DEBUG - all_assets_job - 3bed3022-7fd8-49d0-af82-fd124c9d8bd0 - 11180 - orders - ASSET_MATERIALIZATION - Materialized value orders.
+2026-05-12 15:45:58 +0000 - dagster - DEBUG - all_assets_job - 3bed3022-7fd8-49d0-af82-fd124c9d8bd0 - 11180 - orders - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-05-12 15:45:58 +0000 - dagster - DEBUG - all_assets_job - 3bed3022-7fd8-49d0-af82-fd124c9d8bd0 - 11180 - orders - STEP_SUCCESS - Finished execution of step "orders" in 962ms.
