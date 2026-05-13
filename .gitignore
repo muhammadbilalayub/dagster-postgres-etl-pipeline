@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+.env
+
+.tmp_dagster_home*
+storage/
+
+venv/
+dagster_pg/
+
+*.db
+*.log

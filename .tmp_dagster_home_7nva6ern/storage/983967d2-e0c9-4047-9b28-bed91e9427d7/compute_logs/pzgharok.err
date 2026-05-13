@@ -1,7 +1,0 @@
-2026-05-12 15:49:46 +0000 - dagster - DEBUG - all_assets_job - 983967d2-e0c9-4047-9b28-bed91e9427d7 - 17691 - LOGS_CAPTURED - Capturing logs for process (pid: 17691).
-2026-05-12 15:49:46 +0000 - dagster - DEBUG - all_assets_job - 983967d2-e0c9-4047-9b28-bed91e9427d7 - 17691 - orders_summary - STEP_START - Started execution of step "orders_summary".
-2026-05-12 15:49:46 +0000 - dagster - DEBUG - all_assets_job - 983967d2-e0c9-4047-9b28-bed91e9427d7 - 17691 - orders_summary - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2026-05-12 15:49:46 +0000 - dagster - DEBUG - all_assets_job - 983967d2-e0c9-4047-9b28-bed91e9427d7 - orders_summary - Writing file at: /app/.tmp_dagster_home_7nva6ern/storage/orders_summary using PickledObjectFilesystemIOManager...
-2026-05-12 15:49:47 +0000 - dagster - DEBUG - all_assets_job - 983967d2-e0c9-4047-9b28-bed91e9427d7 - 17691 - orders_summary - ASSET_MATERIALIZATION - Materialized value orders_summary.
-2026-05-12 15:49:47 +0000 - dagster - DEBUG - all_assets_job - 983967d2-e0c9-4047-9b28-bed91e9427d7 - 17691 - orders_summary - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-2026-05-12 15:49:47 +0000 - dagster - DEBUG - all_assets_job - 983967d2-e0c9-4047-9b28-bed91e9427d7 - 17691 - orders_summary - STEP_SUCCESS - Finished execution of step "orders_summary" in 1.17s.

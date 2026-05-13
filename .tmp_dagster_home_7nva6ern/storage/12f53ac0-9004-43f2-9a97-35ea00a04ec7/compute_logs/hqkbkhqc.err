@@ -1,7 +1,0 @@
-2026-05-12 15:45:37 +0000 - dagster - DEBUG - all_assets_job - 12f53ac0-9004-43f2-9a97-35ea00a04ec7 - 10639 - LOGS_CAPTURED - Capturing logs for process (pid: 10639).
-2026-05-12 15:45:38 +0000 - dagster - DEBUG - all_assets_job - 12f53ac0-9004-43f2-9a97-35ea00a04ec7 - 10639 - customer_analytics - STEP_START - Started execution of step "customer_analytics".
-2026-05-12 15:45:38 +0000 - dagster - DEBUG - all_assets_job - 12f53ac0-9004-43f2-9a97-35ea00a04ec7 - 10639 - customer_analytics - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2026-05-12 15:45:38 +0000 - dagster - DEBUG - all_assets_job - 12f53ac0-9004-43f2-9a97-35ea00a04ec7 - customer_analytics - Writing file at: /app/.tmp_dagster_home_7nva6ern/storage/customer_analytics using PickledObjectFilesystemIOManager...
-2026-05-12 15:45:38 +0000 - dagster - DEBUG - all_assets_job - 12f53ac0-9004-43f2-9a97-35ea00a04ec7 - 10639 - customer_analytics - ASSET_MATERIALIZATION - Materialized value customer_analytics.
-2026-05-12 15:45:38 +0000 - dagster - DEBUG - all_assets_job - 12f53ac0-9004-43f2-9a97-35ea00a04ec7 - 10639 - customer_analytics - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-2026-05-12 15:45:39 +0000 - dagster - DEBUG - all_assets_job - 12f53ac0-9004-43f2-9a97-35ea00a04ec7 - 10639 - customer_analytics - STEP_SUCCESS - Finished execution of step "customer_analytics" in 928ms.

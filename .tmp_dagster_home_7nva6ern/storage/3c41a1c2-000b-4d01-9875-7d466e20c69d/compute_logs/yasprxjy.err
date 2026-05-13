@@ -1,7 +1,0 @@
-2026-05-12 15:46:27 +0000 - dagster - DEBUG - all_assets_job - 3c41a1c2-000b-4d01-9875-7d466e20c69d - 12091 - LOGS_CAPTURED - Capturing logs for process (pid: 12091).
-2026-05-12 15:46:27 +0000 - dagster - DEBUG - all_assets_job - 3c41a1c2-000b-4d01-9875-7d466e20c69d - 12091 - payments - STEP_START - Started execution of step "payments".
-2026-05-12 15:46:27 +0000 - dagster - DEBUG - all_assets_job - 3c41a1c2-000b-4d01-9875-7d466e20c69d - 12091 - payments - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2026-05-12 15:46:28 +0000 - dagster - DEBUG - all_assets_job - 3c41a1c2-000b-4d01-9875-7d466e20c69d - payments - Writing file at: /app/.tmp_dagster_home_7nva6ern/storage/payments using PickledObjectFilesystemIOManager...
-2026-05-12 15:46:28 +0000 - dagster - DEBUG - all_assets_job - 3c41a1c2-000b-4d01-9875-7d466e20c69d - 12091 - payments - ASSET_MATERIALIZATION - Materialized value payments.
-2026-05-12 15:46:28 +0000 - dagster - DEBUG - all_assets_job - 3c41a1c2-000b-4d01-9875-7d466e20c69d - 12091 - payments - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
-2026-05-12 15:46:28 +0000 - dagster - DEBUG - all_assets_job - 3c41a1c2-000b-4d01-9875-7d466e20c69d - 12091 - payments - STEP_SUCCESS - Finished execution of step "payments" in 783ms.

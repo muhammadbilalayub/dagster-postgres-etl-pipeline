@@ -1,5 +1,0 @@
-2026-05-12 15:42:13 +0000 - dagster - DEBUG - all_assets_job - 1896370f-94ed-445a-ba00-54d3b747ad40 - 4768 - LOGS_CAPTURED - Capturing logs for process (pid: 4768).
-2026-05-12 15:42:13 +0000 - dagster - DEBUG - all_assets_job - 1896370f-94ed-445a-ba00-54d3b747ad40 - 4768 - orders_summary_orders_summary_check - STEP_START - Started execution of step "orders_summary_orders_summary_check".
-2026-05-12 15:42:14 +0000 - dagster - DEBUG - all_assets_job - 1896370f-94ed-445a-ba00-54d3b747ad40 - 4768 - orders_summary_orders_summary_check - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
-2026-05-12 15:42:14 +0000 - dagster - DEBUG - all_assets_job - 1896370f-94ed-445a-ba00-54d3b747ad40 - 4768 - orders_summary_orders_summary_check - ASSET_CHECK_EVALUATION - Asset check 'orders_summary_check' on 'orders_summary' passed.
-2026-05-12 15:42:14 +0000 - dagster - DEBUG - all_assets_job - 1896370f-94ed-445a-ba00-54d3b747ad40 - 4768 - orders_summary_orders_summary_check - STEP_SUCCESS - Finished execution of step "orders_summary_orders_summary_check" in 897ms.
